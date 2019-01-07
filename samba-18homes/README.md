@@ -44,11 +44,11 @@ Configuracio d'acceś al servidor LDAP:
 ```
 docker network create sambanet
 
-docker run --rm --name ldap -h ldap --net sambanet -d sergimc/ldapserver:18homes
+docker run --rm --name ldap --hostname ldap --network sambanet -d sergimc/ldapserver:18homes
 
-docker run --rm --name host -h host --net sambanet -it sergimc/hostpam:18homesmb
+docker run --rm --name host --hostname host --network sambanet -it sergimc/hostpam:18homesmb
 
-docker run --rm --name samba -h samba --net sambanet -it sergimc/samba:18homes
+docker run --rm --name samba -hostname samba --network sambanet -it sergimc/samba:18homes
 
 ```
 
