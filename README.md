@@ -14,7 +14,7 @@ Requereix de l'ús d'un servidor ldap, hostpam i ssh.
 
 ## Arquitectura
 
-sambanet: Una xarxa propia per als containers implicats.
+**sambanet**: Una xarxa propia per als containers implicats.
 
 **sergimc/ldapserver:18homes**  Un servidor ldap en funcionament amb els usuaris de xarxa.
 
