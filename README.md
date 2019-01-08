@@ -27,9 +27,9 @@ Requereix de l'ús d'un servidor ldap, hostpam i ssh.
 ```
 docker network create sambanet
 
-docker run --rm --name ldap -h ldap --net sambanet -d sergimc/ldapserver:18homes
+docker run --rm --name ldap --hostname ldap --net sambanet -d sergimc/ldapserver:18homes
 
-docker run --rm --name host -h host --net sambanet -it sergimc/hostpam:18homesmb
+docker run --rm --name host --hostname host --net sambanet -it sergimc/hostpam:18homesmb
 
-docker run --rm --name samba -h samba --net sambanet -it sergimc/samba:18homes
+docker run --rm --name samba --hostname samba --net sambanet -it sergimc/samba:18homes
 ```
