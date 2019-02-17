@@ -50,7 +50,7 @@ session     optional      pam_ldap.so
 
 pam_mount.conf.xml (tothom):
 ```
-<volume user="*" fstype="cifs" server="172.20.0.4" path="%(USER)" mountpoint="~/%(USER)"
+<volume user="*" fstype="cifs" server="samba" path="%(USER)" mountpoint="~/%(USER)"
 />
 ```
 
