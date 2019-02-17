@@ -12,7 +12,10 @@ server ldap+pam+samba.
 **sergimc/samba:18homes** Servidor SAMBA que l'utilitzarem per tal de compartir els homes dels usuaris samba. 
 Requereix de l'ús d'un servidor ldap, hostpam i ssh.
 
-## Arquitectura
+## Arquitectura i descripció:
+
+Pràctica que utilitzarem PAM,LDAP i SAMBA. Crearem un servidor SAMBA que es connectarà a un server LDAP on el 
+i podrà exportar directoris HOME d'usuaris locals i LDAP.
 
 **sambanet**: Una xarxa propia per als containers implicats.
 
