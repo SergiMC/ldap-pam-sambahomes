@@ -27,7 +27,7 @@ i podrà exportar directoris HOME d'usuaris locals i LDAP.
 
 ## Execució
 
-Generarem 3 dockers amb les seves imatges correspondents amb les seves networks
+Generarem 3 dockers amb les seves imatges corresponents amb la seva network adient.
 
 ```
 docker network create sambanet
