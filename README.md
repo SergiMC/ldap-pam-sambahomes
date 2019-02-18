@@ -38,3 +38,16 @@ docker run --rm --name host --hostname host --net sambanet --privileged -it serg
 
 docker run --rm --name samba --hostname samba --net sambanet --privileged -it sergimc/samba:18homes
 ```
+
+#### Comprovació en el hostpam:
+
+[root@host ~]# su - pere
+Creating directory '/tmp/home/pere'.
+reenter password for pam_mount:
+[pere@host ~]$ ll
+total 0
+drwxr-xr-x. 2 pere users 0 Jan  6 23:09 pere
+[pere@host ~]$ 
+
+[pere@host ~]$ mount -t cifs
+//172.20.0.4/pere on /tmp/home/pere/pere type cifs (rw,relatime,vers=default,cache=strict,username=pere,domain=,uid=5001,forceuid,gid=100,forcegid,addr=172.20.0.4,file_mode=0755,dir_mode=0755,nounix,serverino,mapposix,rsize=1048576,wsize=1048576,echo_interval=60,actimeo=1)
