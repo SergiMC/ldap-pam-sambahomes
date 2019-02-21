@@ -2,6 +2,9 @@
 @edt Sergi Muñoz Carmona ASIX M06 2018-2019
 
 Podeu trobar les imatges docker al Dockerhub de [sergimc](https://hub.docker.com/u/sergimc/)
+ldap:
+**(hostpam: [hostpam](https://cloud.docker.com/repository/docker/sergimc/hostpam) tag: 18homesmb)**
+**samba: [samba](
 
 ## Imatges:
 **sergimc/ldapserver:18homes** Servidor LDAP amb les dades de la base de dades dc=edt,dc=org Requereix de l'ús d'un servidor ldap.
