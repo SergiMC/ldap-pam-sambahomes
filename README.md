@@ -1,4 +1,4 @@
-# SAMBA ldap+pam+ldapsmb
+# SAMBA ldap+pam+smb
 @edt Sergi Muñoz Carmona ASIX M06 2018-2019
 
 Podeu trobar les imatges docker al Dockerhub de [sergimc](https://hub.docker.com/u/sergimc/)
