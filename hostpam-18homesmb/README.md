@@ -17,6 +17,13 @@ Per poder realitzar el mount cal que el container es configuri amb l'opció **--
 docker run --rm --name host --hostname host --network sambanet --privileged -it sergimc/hostpam:18homesmb
 ```
 
+#### Verificacions
+Per verificar que hi ha connexions entre LDAP i HOSTPAM fem aquestes ordres:
+
+```
+getent passwd pere
+getent group 
+```
 #### Configuracions de fitxers per al host pam
 
 system-auth:
