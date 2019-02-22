@@ -1,7 +1,9 @@
 # PAM
 ## @edt Sergi Muñoz Carmona ASIX M06-ASO Curs 2018-2019
 
+## Imatge HOSTPAM en Dockerhub:
 Podeu trobar les imatges docker al Dockerhub de [sergimc](https://hub.docker.com/u/sergimc/)
+* **hostpam:** [hostpam](https://cloud.docker.com/repository/docker/sergimc/ldapserver) (#tag: 18homes)
 
 Repositori d'exemples de containers docker que utilitzen PAM
 
