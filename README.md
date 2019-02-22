@@ -64,4 +64,4 @@ drwxr-xr-x. 2 pere users 0 Jan  6 23:09 pere
 //172.20.0.4/pere on /tmp/home/pere/pere type cifs (rw,relatime,vers=default,cache=strict,username=pere,domain=,uid=5001,forceuid,gid=100,forcegid,addr=172.20.0.4,file_mode=0755,dir_mode=0755,nounix,serverino,mapposix,rsize=1048576,wsize=1048576,echo_interval=60,actimeo=1)
 ```
 
-Configuracions de cada server al se README adient dins dels seus directoris.
+Configuracions de cada server al seu README adient dins dels seus directoris.
