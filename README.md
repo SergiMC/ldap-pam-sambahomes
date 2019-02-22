@@ -42,6 +42,13 @@ docker run --rm --name host --hostname host --net sambanet --privileged -it serg
 
 docker run --rm --name samba --hostname samba --net sambanet --privileged -it sergimc/samba:18homes
 ```
+#### Verificacions
+Per verificar que hi ha connexions entre LDAP i HOSTPAM fem aquestes ordres:
+
+```
+getent passwd pere
+getent group 
+```
 
 #### Comprovació en el hostpam:
 ```
