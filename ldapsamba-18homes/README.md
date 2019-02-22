@@ -1,7 +1,10 @@
 # LDAP
 ## @edt Sergi Muñoz Carmona ASIX M06-ASO Curs 2018-2019
 
+## Imatge LDAP en Dockerhub:
 Podeu trobar les imatges docker al Dockerhub de [sergimc](https://hub.docker.com/u/sergimc/)
+**ldap:** [ldap](https://cloud.docker.com/repository/docker/sergimc/ldapserver) (#tag: 18homes)
+
 
 ASIX M06-ASO Escola del treball de barcelona
 
