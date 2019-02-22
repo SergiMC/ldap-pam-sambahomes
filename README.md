@@ -3,7 +3,7 @@
 
 ## Imatges en Dockerhub:
 Podeu trobar les imatges docker al Dockerhub de [sergimc](https://hub.docker.com/u/sergimc/)
-* **ldap:** [ldap server] 
+* **ldap:** [ldap server](https://cloud.docker.com/repository/docker/sergimc/ldapserver) (#tag: 18homes)
 * **hostpam:** [hostpam](https://cloud.docker.com/repository/docker/sergimc/hostpam) (#tag: 18homesmb)
 * **samba:** [samba](https://cloud.docker.com/repository/docker/sergimc/samba) 
 
