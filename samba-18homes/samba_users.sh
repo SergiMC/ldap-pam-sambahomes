@@ -13,7 +13,7 @@ echo -e "patipla\npatipla" | smbpasswd -a patipla
 echo -e "rock\nrock" | smbpasswd -a rock
 echo -e "lila\nlila" | smbpasswd -a lila
 echo -e "pere\npere" | smbpasswd -a pere
-echo -e "pau\npau" | passwd -a pau
+echo -e "pau\npau" | smbpasswd -a pau
 echo -e "marta\nmarta" | smbpasswd -a marta
-
+echo -e "anna\nanna" | smbpasswd -a marta
 
