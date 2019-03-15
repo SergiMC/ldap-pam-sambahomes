@@ -38,9 +38,9 @@ docker network create sambanet
 
 docker run --rm --name ldap --hostname ldap --net sambanet -d sergimc/ldapserver:18homes
 
-docker run --rm --name host --hostname host --net sambanet --privileged -it sergimc/hostpam:18homesmb
+docker run --rm --name samba --hostname samba --net sambanet --privileged -d sergimc/samba:18homes
 
-docker run --rm --name samba --hostname samba --net sambanet --privileged -it sergimc/samba:18homes
+docker run --rm --name host --hostname host --net sambanet --privileged -it sergimc/hostpam:18homesmb
 ```
 #### Verificacions
 Per verificar que hi ha connexions entre LDAP i HOSTPAM fem aquestes ordres:
