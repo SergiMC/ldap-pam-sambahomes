@@ -48,9 +48,9 @@ docker network create sambanet
 
 docker run --rm --name ldap --hostname ldap --network sambanet -d sergimc/ldapserver:18homes
 
-docker run --rm --name host --hostname host --network sambanet --privileged -it sergimc/hostpam:18homesmb
+docker run --rm --name samba --hostname samba --network sambanet --privileged -d sergimc/samba:18homes
 
-docker run --rm --name samba --hostname samba --network sambanet --privileged -it sergimc/samba:18homes
+docker run --rm --name host --hostname host --network sambanet --privileged -it sergimc/hostpam:18homesmb
 
 ```
 
